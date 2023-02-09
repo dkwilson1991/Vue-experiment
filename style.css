@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+html,
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  border: 5px #333 solid;
+  margin-bottom: 8px;
+}
+
+h1,
+h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#app {
+  width: 400px;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.male {
+  border-color: steelblue;
+  background-color: steelblue;
+}
+
+.female {
+  border-color: pink;
+  background-color: pink;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  border: 0px;
+  padding: 1rem 1.5rem;
+}

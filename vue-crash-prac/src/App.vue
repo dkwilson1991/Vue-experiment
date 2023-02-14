@@ -5,13 +5,13 @@
 </template>
 
 <script>
-import Header from './components/Header'
+import Header from './components/Header';
 
 export default {
   name: 'App',
   components: {
-    Header
-  }
+    Header,
+  },
 }
 </script>
 
@@ -23,5 +23,18 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
 }
 </style>
